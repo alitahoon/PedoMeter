@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_nav_graph">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/pedo_Meter">
+    <fragment
+        android:id="@+id/pedo_Meter"
+        android:name="com.example.pedometer.ui.Pedo_Meter"
+        android:label="fragment_pedo_meter"
+        tools:layout="@layout/fragment_pedo_meter" />
 </navigation>
